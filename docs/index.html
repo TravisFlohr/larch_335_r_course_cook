@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Travis Flohr, Ph.D.">
+<meta name="dcterms.date" content="2026-07-27">
+
+<title>Larch 335/837: Ecology and Plants II (Fall 2026)</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./01_core_plant_concepts.html" rel="next">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-485d01fc63b59abcd3ee1bf1e8e2748d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
+<script src="site_libs/leaflet-providers-2.0.0/leaflet-providers_2.0.0.js"></script>
+<script src="site_libs/leaflet-providers-plugin-2.2.2/leaflet-providers-plugin.js"></script>
+<link href="site_libs/leaflet-easybutton-1.3.1/easy-button.css" rel="stylesheet">
+<script src="site_libs/leaflet-easybutton-1.3.1/easy-button.js"></script>
+<script src="site_libs/leaflet-easybutton-1.3.1/EasyButton-binding.js"></script>
+<link href="site_libs/ionicons-2.0.1/ionicons.min.css" rel="stylesheet">
+
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Syllabus</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Larch 335 Course Content</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Syllabus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01_core_plant_concepts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Core Guiding Concepts for Plant Knowledge</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02_schedule.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Course Schedule</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03_program.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Planting Goals, Objectives, &amp; Program</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04_module_1_analyses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Module 1: Assignment Statement:</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#syllabus" id="toc-syllabus" class="nav-link active" data-scroll-target="#syllabus">Syllabus</a>
+  <ul class="collapse">
+  <li><a href="#course-information" id="toc-course-information" class="nav-link" data-scroll-target="#course-information">Course Information</a>
+  <ul class="collapse">
+  <li><a href="#meeting-times" id="toc-meeting-times" class="nav-link" data-scroll-target="#meeting-times">Meeting Times</a></li>
+  <li><a href="#locations" id="toc-locations" class="nav-link" data-scroll-target="#locations">Location(s)</a></li>
+  <li><a href="#faculty" id="toc-faculty" class="nav-link" data-scroll-target="#faculty">Faculty</a></li>
+  <li><a href="#instructor" id="toc-instructor" class="nav-link" data-scroll-target="#instructor">Instructor</a></li>
+  <li><a href="#teaching-assistant" id="toc-teaching-assistant" class="nav-link" data-scroll-target="#teaching-assistant">Teaching Assistant</a></li>
+  <li><a href="#credits" id="toc-credits" class="nav-link" data-scroll-target="#credits">Credits</a></li>
+  <li><a href="#course-costs-and-materials" id="toc-course-costs-and-materials" class="nav-link" data-scroll-target="#course-costs-and-materials">Course Costs and Materials</a></li>
+  </ul></li>
+  <li><a href="#course-description-and-objectives" id="toc-course-description-and-objectives" class="nav-link" data-scroll-target="#course-description-and-objectives">Course Description and Objectives</a>
+  <ul class="collapse">
+  <li><a href="#planterly-cultural-and-professional-diversity" id="toc-planterly-cultural-and-professional-diversity" class="nav-link" data-scroll-target="#planterly-cultural-and-professional-diversity">Planterly, Cultural, and Professional Diversity</a></li>
+  </ul></li>
+  <li><a href="#course-outcomes" id="toc-course-outcomes" class="nav-link" data-scroll-target="#course-outcomes">Course Outcomes</a></li>
+  <li><a href="#course-structure" id="toc-course-structure" class="nav-link" data-scroll-target="#course-structure">Course Structure</a></li>
+  <li><a href="#evaluation-and-grade-allocation" id="toc-evaluation-and-grade-allocation" class="nav-link" data-scroll-target="#evaluation-and-grade-allocation">Evaluation and Grade Allocation</a>
+  <ul class="collapse">
+  <li><a href="#larch-335837" id="toc-larch-335837" class="nav-link" data-scroll-target="#larch-335837">Larch 335/837</a></li>
+  <li><a href="#larch-837-enrichment" id="toc-larch-837-enrichment" class="nav-link" data-scroll-target="#larch-837-enrichment">Larch 837 Enrichment</a></li>
+  <li><a href="#grading-rubric-and-scale" id="toc-grading-rubric-and-scale" class="nav-link" data-scroll-target="#grading-rubric-and-scale">Grading Rubric and Scale</a></li>
+  </ul></li>
+  <li><a href="#course-policies" id="toc-course-policies" class="nav-link" data-scroll-target="#course-policies">Course Policies</a>
+  <ul class="collapse">
+  <li><a href="#aigenerative-technology-policy" id="toc-aigenerative-technology-policy" class="nav-link" data-scroll-target="#aigenerative-technology-policy">AI/Generative Technology Policy</a></li>
+  <li><a href="#departmental-school-and-university-policies" id="toc-departmental-school-and-university-policies" class="nav-link" data-scroll-target="#departmental-school-and-university-policies">Departmental, School, and University Policies</a></li>
+  <li><a href="#communication-policy" id="toc-communication-policy" class="nav-link" data-scroll-target="#communication-policy">Communication Policy</a></li>
+  <li><a href="#weather-based-class-delays-and-cancellation-policy" id="toc-weather-based-class-delays-and-cancellation-policy" class="nav-link" data-scroll-target="#weather-based-class-delays-and-cancellation-policy">Weather-based Class Delays and Cancellation Policy</a></li>
+  <li><a href="#submission-policy" id="toc-submission-policy" class="nav-link" data-scroll-target="#submission-policy">Submission Policy</a></li>
+  <li><a href="#engagement-and-attendance-policy" id="toc-engagement-and-attendance-policy" class="nav-link" data-scroll-target="#engagement-and-attendance-policy">Engagement and Attendance Policy</a></li>
+  <li><a href="#academic-integrity-and-misconduct" id="toc-academic-integrity-and-misconduct" class="nav-link" data-scroll-target="#academic-integrity-and-misconduct">Academic Integrity and Misconduct</a></li>
+  <li><a href="#inclusivity-justice-collaboration-and-accommodations" id="toc-inclusivity-justice-collaboration-and-accommodations" class="nav-link" data-scroll-target="#inclusivity-justice-collaboration-and-accommodations">Inclusivity, Justice, Collaboration, and Accommodations</a></li>
+  <li><a href="#educational-equity" id="toc-educational-equity" class="nav-link" data-scroll-target="#educational-equity">Educational Equity</a></li>
+  <li><a href="#indigenous-lands-statement" id="toc-indigenous-lands-statement" class="nav-link" data-scroll-target="#indigenous-lands-statement">Indigenous Lands Statement</a></li>
+  <li><a href="#penn-state-values-and-student-code-of-conduct" id="toc-penn-state-values-and-student-code-of-conduct" class="nav-link" data-scroll-target="#penn-state-values-and-student-code-of-conduct">Penn State Values and Student Code of Conduct</a></li>
+  </ul></li>
+  <li><a href="#support" id="toc-support" class="nav-link" data-scroll-target="#support">Support</a>
+  <ul class="collapse">
+  <li><a href="#counseling-psychological-services-resources" id="toc-counseling-psychological-services-resources" class="nav-link" data-scroll-target="#counseling-psychological-services-resources">Counseling &amp; Psychological Services Resources</a></li>
+  <li><a href="#accommodations" id="toc-accommodations" class="nav-link" data-scroll-target="#accommodations">Accommodations</a></li>
+  </ul></li>
+  <li><a href="#changes-and-updates" id="toc-changes-and-updates" class="nav-link" data-scroll-target="#changes-and-updates">Changes and Updates</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Larch 335/837: Ecology and Plants II (Fall 2026)</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Travis Flohr, Ph.D. </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 27, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/00_cover_image.jpg" class="img-fluid figure-img" alt="Composite image showing monarch butterflies feeding on pink flower spikes beside a landscape design rendering of a curving pollinator garden with winding paths, dense native planting beds, benches, and labeled site features."></p>
+<figcaption>Monarch butterflies feeding on <em>Liatris spicata</em> (left) and Lara Garcia’s rendering for the west campus meadow project. Source: Travis Flohr(left), Lara Garcia (right)</figcaption>
+</figure>
+</div>
+<section id="syllabus" class="level1 unnumbered">
+<h1 class="unnumbered">Syllabus</h1>
+<section id="course-information" class="level2">
+<h2 class="anchored" data-anchor-id="course-information">Course Information</h2>
+<section id="meeting-times" class="level3">
+<h3 class="anchored" data-anchor-id="meeting-times">Meeting Times</h3>
+<p>Tuesday and Thursday, 9:05 - 11:50 AM</p>
+</section>
+<section id="locations" class="level3">
+<h3 class="anchored" data-anchor-id="locations">Location(s)</h3>
+<p>144 Stuckeman Family Building <br></p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-8ee5946329fcdee70d74" style="width:100%;height:325px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-8ee5946329fcdee70d74">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,"Positron (default)",{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addProviderTiles","args":["CartoDB.Positron",null,"Positron (default)",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addEasyButton","args":[{"icon":"ion-arrow-shrink","title":"Reset View","onClick":"function(btn, map){ map.setView(map._initialCenter, map._initialZoom); }","position":"topleft"}]},{"method":"addProviderTiles","args":["Esri.WorldImagery",null,"ESRI World Imagery",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addProviderTiles","args":["Esri.WorldStreetMap",null,"ESRI Street Map",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addMarkers","args":[40.801212,-77.86648099999999,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Stuckeman Family Building",null,null,null,"Stuckeman Family Building",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addLayersControl","args":[["Positron (default)","ESRI World Imagery","ESRI Street Map"],[],{"collapsed":true,"autoZIndex":true,"position":"topright"}]}],"setView":[[40.801212,-77.86648099999999],17,[]],"limits":{"lat":[40.801212,40.801212],"lng":[-77.86648099999999,-77.86648099999999]}},"evals":["calls.2.args.0.onClick"],"jsHooks":{"render":[{"code":"function(el, x, data) {\n  return (\nfunction(el, x){\n  var map = this;\n  map.whenReady(function(){\n    map._initialCenter = map.getCenter();\n    map._initialZoom = map.getZoom();\n  });\n}).call(this.getMap(), el, x, data);\n}","data":null}]}}</script>
+</div>
+</div>
+<p><br> Outdoors: Millennium Science Complex</p>
+</section>
+<section id="faculty" class="level3">
+<h3 class="anchored" data-anchor-id="faculty">Faculty</h3>
+<p>Travis Flohr, Ph.D., <a href="mailto:tlf159@psu.edu">tlf159@psu.edu</a>, 419 SFB, office hours by appointment.</p>
+</section>
+<section id="instructor" class="level3">
+<h3 class="anchored" data-anchor-id="instructor">Instructor</h3>
+<p>Mohammad “Mo” Rezvan, <a href="mailto:mfr5731@psu.edu">mfr5731@psu.edu</a>, Office hours and location by appointment.</p>
+</section>
+<section id="teaching-assistant" class="level3">
+<h3 class="anchored" data-anchor-id="teaching-assistant">Teaching Assistant</h3>
+<p><span style="background-color: yellow;">This year there will be no teaching assistant for this course.</span></p>
+</section>
+<section id="credits" class="level3">
+<h3 class="anchored" data-anchor-id="credits">Credits</h3>
+<p>Larch 335: 3 credits Larch 837: 3 credits</p>
+</section>
+<section id="course-costs-and-materials" class="level3">
+<h3 class="anchored" data-anchor-id="course-costs-and-materials">Course Costs and Materials</h3>
+<p>We have tried to keep course costs to a minimum. Feel free to leverage your existing supplies (e.g., pens, pencils, erasers, and pencil sharpeners). Still, <a href="#tbl-course_costs" class="quarto-xref">Table&nbsp;<span>1</span></a> is our best estimate of course costs based on past course experiences. You may use markers or pens other than those listed below; the key is being able to produce the work that is required of you. However, note that exact costs may vary depending on the extent of your plant lists when printing for review. You may use markers or pens than other from those listed below; the key is to quickly create conceptual drawings with three to four distinctly different line weights.</p>
+<div id="tbl-course_costs" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-course_costs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Estimated course costs.
+</figcaption>
+<div aria-describedby="tbl-course_costs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 85%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Materials and Supplies</th>
+<th style="text-align: right;">Total Costs</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><em>Materials and Supplies</em></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Field Journal</td>
+<td style="text-align: right;">$25.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Fine liner Technical Pens or Sharpies</td>
+<td style="text-align: right;">$15.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Graphite Pencil Set, with multiple (3+) hardness’s</td>
+<td style="text-align: right;">$10.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Pencil Sharpener</td>
+<td style="text-align: right;">$2.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1 rol of 24” trace</td>
+<td style="text-align: right;">$20.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><em>Printing</em></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">11” x 17” (Tabloid) Black and White Plant Lists, 20 sheets (single-sided) * $0.17</td>
+<td style="text-align: right;">$3.40</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">24” x 26” (Arch D) Black and White Base Maps, 2 sheets (single-sided) * $18.00</td>
+<td style="text-align: right;">$36.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong><em>Total Costs</em></strong></td>
+<td style="text-align: right;"><strong><em>$111.40</em></strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>** Disclaimer. Prices are as accurate as those provided in the summer of Published in 2026.</p>
+<p>Please feel free to express yourself artistically with supplies other than those listed above.</p>
+<section id="software" class="level4">
+<h4 class="anchored" data-anchor-id="software">Software</h4>
+<p>Although Larch 335/837 will emphasize integrating a wide array of software tools to represent the design and implementation process, the base information and construction drawings will be created using AutoCAD. Implementing landscape projects requires creating planting contract documents with symbols, labels, notes, details, and plant schedules. In addition to developing your digital drafting skills, you will use AutoCAD to manage sheet sets, generate plant schedules from dynamic block attributes, link to external spreadsheets, and embed external objects.</p>
+<p>However, effective visual thinking and communication are essential to any design and implementation process, especially planting design and implementation. As you learn and apply planting design principles and techniques, you will also learn and apply various visualization and representation techniques. In addition to freehand sketching and rendering, you may use SketchUp or Rhino to create three-dimensional models to explore compositional possibilities and plant-landscape-people relationships. For more detailed studies, you may create photorealistic montages in Photoshop or photorealistic renderings using Twinmotion or Lumion, to name a few. We also support analog techniques (e.g., watercolor, markers) to recognize the diversity of traditions and objectives in design representation. Regardless of the technology or technique you choose, we expect your design representation to meet the assignment requirements and be of high quality. Please note that all the software used in this course is free to download on your personal computers or in one of the computer labs in the Stuckeman Family Building.</p>
+</section>
+<section id="personal-technology" class="level4">
+<h4 class="anchored" data-anchor-id="personal-technology">Personal Technology</h4>
+<p>This course requires extensive computer work that sometimes builds on previous projects throughout the semester. Lost data due to hard drive crashes, accidental deletions, corruption, etc., is bound to happen; however, the student must ensure they have backup copies of their work. Students should use their existing external hard drive or flash drive when working on personal, lab, or loaner computers, and maintain a working and a backup copy of all files when working on university-owned machines via remote access. We will cover strategies for backing up your data on the first day of class. We recommend backing up your data at least once per week.</p>
+<p>If you already have an external hard drive or USB flash drive, feel free to continue using it as long as you have enough free space for it to work. We recommend purchasing at least a 1 TB Drive with a USB 3 connection if you need a hard drive. Your drive must be formatted for Windows. If you have questions regarding these requirements, please ask. Your previous drives from Larch 216/816 should be sufficient.</p>
+</section>
+</section>
+</section>
+<section id="course-description-and-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="course-description-and-objectives">Course Description and Objectives</h2>
+<p>Larch 335/837 Planting Methods is part of the core professional sequence of our accredited BLA and MLA programs. As a <strong>methods</strong> course, it complements the design studio sequence by providing an applied focus on plants and the implementation of plantings in designed landscapes. It also serves as a setting to apply knowledge gained during Larch 145 and 245 (Ecology &amp; Plants I and II), Larch 246 (Ridge &amp; Valley), and other ‘planterly’ content in your prior design studios. Of course, we expect that Larch 335 (BLAs) and 837 (MLAs) will inform your design studio work this semester and in the following ones.</p>
+<p>Knowledge of plants and plant culture and skill in planting design and implementation are critical aspects of the landscape architect’s education. Why? Because plants immensely contribute to sustaining and enhancing life in all forms. Well-selected, located, and managed landscape plants <strong>perform</strong> <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. As landscape architects, we have the responsibility and privilege of helping to place these benefits in motion.</p>
+<p>This course aims to develop your appreciation of plants in the landscape while advancing knowledge and skills in applied planting techniques, documentation, and management protocols as distinct yet integral components of the landscape design and stewardship process. In terms of outcomes, by the end of the semester, you will have:</p>
+<ol type="1">
+<li>gained experience in the horticulture and ‘ecoculture’ of established and emerging planting genres—the mixed pollinator garden, treed urban plaza, meadow, and hydric habitats, and other planted landscape contexts;</li>
+<li>built technical abilities in species selection, planting establishment and soil improvement methods, planting installation details, and adaptive management of the planted landscape;</li>
+<li>gained fluency in contract documentation (CD) that accurately and clearly communicates project intents and standards to contractors and managers;</li>
+<li>bolstered your understanding of progressive planting design theory that addresses aesthetic, ecological, cultural, and functional factors;</li>
+<li>became aware of some of the performative aspects of planted landscapes in contributing to local-scale sustainability and resilience;</li>
+<li>considered diversity, equity, inclusion, and belonging (DEIB) aspects of planting design and planterly built works; and</li>
+<li>continued to develop your skills in AutoCAD and related digital media for conceptualization, visualization, and contractor instructions</li>
+</ol>
+<section id="planterly-cultural-and-professional-diversity" class="level3">
+<h3 class="anchored" data-anchor-id="planterly-cultural-and-professional-diversity">Planterly, Cultural, and Professional Diversity</h3>
+<p>There’s a growing body of scholarship that modern students are learning less and less about plants and plant communities, which are the foundation of sustainable human societies and a big part of what we envision when we think of the beauty of the natural world (Wandersee &amp; Schussler, 1999). We hope this course plays a role in ensuring the next generation of landscape architects are <strong>nature literate</strong> and that our profession helps reverse broader societal trends toward <strong>plant blindness</strong> and <strong>biodiversity collapse</strong> (Brzuszek et al., 2011; Griswold, 1994; Sturtevant, 1927; Weller, 2014).</p>
+<p>The gardenesque, culinary, and medicinal uses of plants have underpinned many distinct cultures and traditions across diverse societies, not just amongst privileged classes of European background. We hope this course provides an opportunity to explore the close links between horticulture and human culture, particularly in underappreciated black and brown communities. George Washington Carver (c.&nbsp;1864-1943) was one of the most prominent botanists of the early 20th century, having discovered hundreds of uses for native and introduced plants across the U.S. David Augustus Williston (1868-1962) was an esteemed landscape architect and horticulturist on many important U.S. campus design projects. More recently, many minority-led design firms have been pushing the boundaries of planting design and methods in contemporary landscape architecture. We think of the outstanding work on the Highline plantings by Isabel Castilla of James Corner Field Operations; the many culturally-attuned and inclusive landscapes by Walter Hood and company; José Almiñana’s work with Andropogon on Phipps Conservatory’s Center for Sustainability, and the award-winning projects of New York-based garden designer, Wambui Ippolito. The list could go on. Throughout the semester, let’s look for opportunities to embrace human and professional diversity associated with planting design and methods.</p>
+<p>We should scrutinize botanical terminology with negative connotations to support our College’s diversity, equity, and inclusion (DEI) policies. Let’s begin by embracing Penn State Arboretum’s position on the issue:</p>
+<blockquote class="blockquote">
+<p>“Derogatory Terminology in Common Names and Taxonomy: The fields of botany and horticulture [and landscape architecture] have not been immune to the biases and prejudices of the larger culture. This sad and frustrating fact becomes immediately evident when we are confronted with blatantly racist or pejorative common names for plants. Such pejorative terminology is inconsistent with Penn State’s values, as well as with the professional standards of the public horticulture field. The Arboretum at Penn State [and us in Larch 335/837] will not knowingly use or promote derogatory, biased, or racist common names in any of its publications or educational materials (citation unknown).”</p>
+</blockquote>
+</section>
+</section>
+<section id="course-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="course-outcomes">Course Outcomes</h2>
+<p>Upon completion of Larch 335/837, you should be able to:</p>
+<ul>
+<li>conduct site and local context analyses that inform planting design and implementation;</li>
+<li>conduct independent technical research and integrate it within the larger scope of a planting strategy;</li>
+<li>develop planting concepts based on given goals and programs that interweave social, aesthetic, ecological, and utilitarian objectives;</li>
+<li>apply an integrated approach to using hand drawing, AutoCAD, SketchUP, or Rhino, and Twinmotion or Lumion visualization software to communicate planting approaches and plant choices effectively;</li>
+<li>develop woody and herbaceous plant palettes and follow-up technical CAD plant schedules;</li>
+<li>prepare detailed and accurate technical CAD planting and seeding plans, as well as associated site layout plans that meet performative standards for sustainable landscapes;</li>
+<li>prepare progressive technical planting details;</li>
+<li>craft instructions to the Contractor regarding site preparation, soil remediation and enhancement, plant procurement, planting, seeding, and landscape management during the plant establishment period, and;</li>
+<li>generate technically thorough, well-organized, and succinct CAD contract documents.</li>
+</ul>
+<p>Although the final design and planting implementation are exacting and technical, your projects will maintain a commitment to the site’s overall goals and solid design (aesthetic, ecological, inclusive social, and functional) principles and performance standards throughout the process.</p>
+</section>
+<section id="course-structure" class="level2">
+<h2 class="anchored" data-anchor-id="course-structure">Course Structure</h2>
+<p>Learning theory strongly advises blending several approaches to build knowledge. As such we will interweave multiple learning formats: site visits, lectures, demonstrations, workshops, pin-ups, and one-on-one desk critiques.</p>
+</section>
+<section id="evaluation-and-grade-allocation" class="level2">
+<h2 class="anchored" data-anchor-id="evaluation-and-grade-allocation">Evaluation and Grade Allocation</h2>
+<p>This course has a total of four main modules with two modules having sub modules, details are provided below <a href="#tbl-module_values" class="quarto-xref">Table&nbsp;<span>2</span></a>. Details for each graded deliverable will be provided within individual deliverable statements.</p>
+<section id="larch-335837" class="level3">
+<h3 class="anchored" data-anchor-id="larch-335837">Larch 335/837</h3>
+<div id="tbl-module_values" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-module_values-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Outline of course modules and their associated point values.
+</figcaption>
+<div aria-describedby="tbl-module_values-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 66%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Module</th>
+<th style="text-align: left;">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong><em>Module 1: Site Analyses</em></strong></td>
+<td style="text-align: left;">10 points</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong><em>Module 2: Pollinator Garden</em></strong></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2a. Pollinator Garden Plant List/Design Check-off</td>
+<td style="text-align: left;">15 points</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2b. Pollinator Garden Technical Planting Plan/Schedule</td>
+<td style="text-align: left;">30 points</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong><em>Module 3. Technical Treed Plaza Plan and Details</em></strong></td>
+<td style="text-align: left;">60 points</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong><em>Module 4. Planted Meadow Ecosystems</em></strong></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">4a. Meadow Concept and Palette</td>
+<td style="text-align: left;">30 points</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4b. Technical Meadow Plan, Schedules, and Establishment Notes</td>
+<td style="text-align: left;">30 points</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Engagement - steady participation, progress, attendance, and preparation</td>
+<td style="text-align: left;">10 points</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong><em>Total</em></strong></td>
+<td style="text-align: left;"><strong><em>185 points</em></strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="larch-837-enrichment" class="level3">
+<h3 class="anchored" data-anchor-id="larch-837-enrichment">Larch 837 Enrichment</h3>
+<p>We expect graduate students to participate in 800-level courses and engage with the content. Graduate course content will include advanced-level exploration of the technical content covered in Modules 2 and 4. The specific deliverable will be a cost estimate spreadsheet and an associated design and cost presentation to the undergraduate class. Each cost estimate and presentation will be worth 10 points, making Larch 837 worth 205 points.</p>
+</section>
+<section id="grading-rubric-and-scale" class="level3">
+<h3 class="anchored" data-anchor-id="grading-rubric-and-scale">Grading Rubric and Scale</h3>
+<!-- 00_grading_scale.qmd -->
+<p>Grades will be based on the quality, accuracy, completeness, and timeliness of your work; the strength of your progress; and your consistent, productive engagement, both individually and during group activities. If you are concerned about where you stand during the semester, please talk with me. <a href="#tbl-grade_scale" class="quarto-xref">Table&nbsp;<span>3</span></a> outlines the overall grading rubric to be used in this course; additional rubrics are provided in the problem statements. Note, this course will follow standard mathmatical rounding, e.g., a 92.5 will be rounded to a 93; however, a 92.1 will not be rounded.</p>
+<div id="tbl-grade_scale" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-grade_scale-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;3: General course grading rubric and scale.
+</figcaption>
+<div aria-describedby="tbl-grade_scale-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 66%">
+<col style="width: 20%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Qualitative Level Achieved.</th>
+<th style="text-align: center;">Letter Grade</th>
+<th style="text-align: center;">% Range</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Excellent, inspired, brilliant quality, highly accurate, fully complete, faultless.</td>
+<td style="text-align: center;">A</td>
+<td style="text-align: center;">93-100</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Between excellent and very good, quite inspired, complete, nearly faultless.</td>
+<td style="text-align: center;">A-</td>
+<td style="text-align: center;">90-92.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Very good; shows some inspiration or is special in some way but is not brilliant and/or faultless.</td>
+<td style="text-align: center;">B+</td>
+<td style="text-align: center;">87-89.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Good, solid, and complete, but with no particular inspiration and/or special qualities.</td>
+<td style="text-align: center;">B</td>
+<td style="text-align: center;">83-86.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Adequate; a few notable weaknesses and/or gaps.</td>
+<td style="text-align: center;">B-</td>
+<td style="text-align: center;">80-82.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Basics are present but have a series of notable weaknesses and/or gaps.</td>
+<td style="text-align: center;">C+</td>
+<td style="text-align: center;">77-79.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Not all the basics present; substantial errors; consistently weak and/or uninspired.</td>
+<td style="text-align: center;">C</td>
+<td style="text-align: center;">70-76.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Barely acceptable; major gaps, weaknesses, and/or elements missing.</td>
+<td style="text-align: center;">D</td>
+<td style="text-align: center;">60-69.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Unacceptable; missed the point; substantially incomplete.</td>
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">&lt;60</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+</section>
+<section id="course-policies" class="level2">
+<h2 class="anchored" data-anchor-id="course-policies">Course Policies</h2>
+<section id="aigenerative-technology-policy" class="level3">
+<h3 class="anchored" data-anchor-id="aigenerative-technology-policy">AI/Generative Technology Policy</h3>
+<!-- 00_ai_no_policy.qmd -->
+<p>This course does not permit AI/Generative technologies (GT), such as ChatGPT, Midjourney, Adobe Firefly, Dall-E, or others. If you have questions, discuss them with us before you begin and before submitting the final work. The reason for this policy is that I have tried all these AI applications, and none currently provide robust, accurate plant information. I attempted a few of the projects with AI, and the best they earned was a D. Thus, the use of AI/GT is plagiarism in this course (see plagiarism policy). Additionally, emerging research shows that using AI inhibits deeply learning initial concepts and the development of early critical thinking skills. Skills necessary to ensure AI is producing reliable and truthful outputs. However, you may use a spelling or grammar check AI such as Grammarly.</p>
+<p><strong>You are not permitted to upload this course’s syllabus, quizzes, lectures, or assignment statements to any AI or Generative technology, unless course accommodations necessitate doing so. Doing so will be considered an academic infraction and theft of academic intellectual property.</strong></p>
+<!-- 00_policies_resources.qmd -->
+</section>
+<section id="departmental-school-and-university-policies" class="level3">
+<h3 class="anchored" data-anchor-id="departmental-school-and-university-policies">Departmental, School, and University Policies</h3>
+<p>All departmental and school studio/building policies are in effect.</p>
+</section>
+<section id="communication-policy" class="level3">
+<h3 class="anchored" data-anchor-id="communication-policy">Communication Policy</h3>
+<p>Our official mode of communication in this class is through Canvas. Course-wide communication will be via Course Announcements. Personal communication between the teaching, and students will be via <strong>Canvas Inbox</strong>. All communication shall be respectful and professional. It is the student’s responsibility to check Canvas frequently. All technology troubleshooting questions should be directed to the appropriate <strong>Canvas Discussion Board</strong>. The teaching team will moderate discussion board posts and involve the faculty as needed.</p>
+<p>Before each field class, I will monitor the weather closely using local weather reports. Field classes will be held during good weather and when light rain is forecasted. <strong>Dress accordingly!</strong> <strong>If the weather is predicted to be stormy and consistently wet during class time, I will post a Canvas announcement to the whole class</strong> to opt for “Plan B,” either to meet on Zoom or in our classroom space. <strong>The announcement may be sent the evening before or right up to about noon on the day of class. WATCH FOR MY CANVAS ANNOUNCEMENTS!</strong>.</p>
+</section>
+<section id="weather-based-class-delays-and-cancellation-policy" class="level3">
+<h3 class="anchored" data-anchor-id="weather-based-class-delays-and-cancellation-policy">Weather-based Class Delays and Cancellation Policy</h3>
+<p>For university-related early dismissals or cancellations, please refer to <a href="http://news.psu.edu/story/333863/2014/11/10/campus-life/when-winter-weather-strikes-resources-university-park-community" target="_blank">http://news.psu.edu/story/333863/2014/11/10/campus-life/when-winter-weather-strikes-resources-university-park-community.</a> For course-specific changes in scheduling or meeting requirements, see the “Bad Weather” information provided above.</p>
+</section>
+<section id="submission-policy" class="level3">
+<h3 class="anchored" data-anchor-id="submission-policy">Submission Policy</h3>
+<p>All projects and exercises must be submitted by the deadlines indicated in the course schedule. Incomplete assignments should be submitted by the deadline and will be graded as is. Students seeking an exception due to extenuating circumstances should message the faculty via Canvas before the deadline. <strong>Late submissions</strong> are strongly discouraged. <strong>A deduction of one full letter grade</strong> (e.g., B+ to C+) will be applied for each of the <strong>first two 24-hour periods of unexcused lateness</strong> beyond the deadline. <strong>Submissions will not be accepted beyond 48 hours after the deadline and will receive 0 points (0%)</strong>.</p>
+</section>
+<section id="engagement-and-attendance-policy" class="level3">
+<h3 class="anchored" data-anchor-id="engagement-and-attendance-policy">Engagement and Attendance Policy</h3>
+<p>As a core part of the professional curriculum, attendance is mandatory and will be recorded. If we have any Zoom lectures, they will be no different from face-to-face lectures in that we expect your timely attendance. Class time (face-to-face or virtual) is intended to achieve the progress necessary to complete this course successfully. Since we have just two weekly classes, we expect your engaged and productive presence for the entire class period.</p>
+<p>If you cannot attend due to extenuating circumstances, you must provide the instructors with prior notification and the appropriate reasons. <strong>If you have any cold, flu, or COVID-19-like symptoms, please stay home and/or isolate as appropriate.</strong> <strong>It is the student’s responsibility to communicate via Canvas with faculty regarding absences and to make up missing work within the unexcused late period noted below.</strong></p>
+<p>Inconsistent attendance, repeated lateness to class, or lack of progress and engagement during class may reduce the work grade for that assignment. Also, <strong>a pattern of unexcused absence or tardiness may result in a reduction in your grade.</strong> Note that we consider a student’s inattentive presence during a lecture disengaged and, thus, effectively absent.</p>
+<p>Finally, university-level class attendance policies apply. For more information, see: <a href="https://senate.psu.edu/students/policies-and-rules-for-undergraduate-students/42-00-acquisition-of-credit/#:~:text=42%2D27%20Class-,Attendance,-Regular%20class%20attendance" target="_blank">https://undergrad.psu.edu/aappm/42-00-class-attendance.html.</a></p>
+<p><strong>If you cannot attend due to illness or extenuating circumstances, Canvas message the teaching team promptly.</strong> If you are seriously ill, notify the teaching team as soon as possible or ask a friend to do so on your behalf. <strong>If you miss a Plant Walk, we expect you’ll catch up on your own</strong> by visiting the site and finding/studying the designated plants for that session so that you’re prepared to take the associated quiz at the same time as your peers. If you must miss class due to activities in another class (e.g., a field trip), you must inform the instructional team promptly, well before class. Specifically, <strong>beyond two (2) unexcused absences</strong>, the student may receive a 2% reduction in an assignment grade for each subsequent unexcused absence. More generally, inconsistent attendance, a record of lateness, or a pattern of lack of progress or engagement during class or fieldwork may result in a significant grade reduction.</p>
+</section>
+<section id="academic-integrity-and-misconduct" class="level3">
+<h3 class="anchored" data-anchor-id="academic-integrity-and-misconduct">Academic Integrity and Misconduct</h3>
+<p>We urge you to promise not to cheat on quizzes or plagiarize during the semester. Why? Because the only true road to professional and personal success is to be honest and embrace academic and personal integrity. When you learn honestly, you learn the material properly, and you feel good about yourself as a human being. <strong>Evidence of cheating on a quiz or plagiarism on an assignment will result in a zero (0%) grade for the assignment in question, an additional final course grade reduction, and possibly, depending on severity, course failure and academic sanction.</strong> If you have any doubts or questions about what constitutes cheating or academic misconduct, please do not hesitate to talk with the teaching team.</p>
+<p>We will adhere to all academic integrity policies in this course. According to the University, academic integrity “is the pursuit of scholarly activity in an open, honest, and responsible manner (Penn State University, 2024).” Dishonesty and plagiarism are wrong and will result in academic sanctions. We will abide by university policy. For more information, see <a href="https://bulletins.psu.edu/undergraduate/general-information/academic-information/student-rights-responsibilities/academic-integrity/." target="_blank">https://bulletins.psu.edu/undergraduate/general-information/academic-information/student-rights-responsibilities/academic-integrity/.</a> If you plagiarize any portion of an assignment, you will receive 0 points (0%) for the assignment. When in doubt, seek advice from the course teaching team.</p>
+</section>
+<section id="inclusivity-justice-collaboration-and-accommodations" class="level3">
+<h3 class="anchored" data-anchor-id="inclusivity-justice-collaboration-and-accommodations">Inclusivity, Justice, Collaboration, and Accommodations</h3>
+<p>In the spirit of shared humanity and concern for our community and world, we recognize that our learning activities and design solutions can either support or disadvantage groups of people and individuals. We value critical reasoning, self-reflection, imagination, empathy, inclusivity, and collaboration. We disavow racism and all other systemic patterns of prejudice, including speech or actions that attempt to silence, threaten, degrade, disadvantage, or displace groups and individuals. We advocate for social and environmental justice and inclusive communities and places as we work toward an equitable, democratic, and sustainable society. As future landscape architects, you have the opportunity and responsibility to create and define civic spaces and landscapes that are welcoming to all people and address plant-related societal issues (e.g., ecosystem service equity and biodiversity collapse). We will support and enforce all nondiscrimination and harassment policies. For more information, see <a href="https://guru.psu.edu/policies/AD85.html" target="_blank">https://guru.psu.edu/policies/AD85.html.</a></p>
+</section>
+<section id="educational-equity" class="level3">
+<h3 class="anchored" data-anchor-id="educational-equity">Educational Equity</h3>
+<p>Consistent with University Policy AD29, students who believe they have experienced or observed a hate crime, an act of intolerance, discrimination, or harassment that occurs at Penn State are urged to report these incidents. Refer to http://equity.psu.edu/reportbias/.</p>
+</section>
+<section id="indigenous-lands-statement" class="level3">
+<h3 class="anchored" data-anchor-id="indigenous-lands-statement">Indigenous Lands Statement</h3>
+<p>As landscape stewards and advocates for both restorative justice and the environment, we acknowledge that the Stuckeman School rests on the ancestral lands of the Erie, Haudenosaunee, Lenape, Shawnee, Susquehannock, and Wahzhazhe Nations. As a land grant institution, we acknowledge and honor the traditional caretakers of these lands and strive to understand and model their responsible stewardship. We also acknowledge the longer history of these lands and our place in that history. Penn State’s land grant was funded by selling land taken from 112 tribal nations in 50 land cessions across 16 states. This injustice has yet to be openly acknowledged by Penn State, much less reconciled.</p>
+</section>
+<section id="penn-state-values-and-student-code-of-conduct" class="level3">
+<h3 class="anchored" data-anchor-id="penn-state-values-and-student-code-of-conduct">Penn State Values and Student Code of Conduct</h3>
+<p>We expect all students to conduct themselves in accordance with the University’s Code of Conduct. For details, see <a href="https://studentaffairs.psu.edu/support-safety-conduct/student-conduct/code-conduct" target="_blank">https://studentaffairs.psu.edu/support-safety-conduct/student-conduct/code-conduct.</a> Please follow the core Penn State values of Integrity, Respect, Responsibility, Discovery, Excellence, and Community.</p>
+</section>
+</section>
+<section id="support" class="level2">
+<h2 class="anchored" data-anchor-id="support">Support</h2>
+<section id="counseling-psychological-services-resources" class="level3">
+<h3 class="anchored" data-anchor-id="counseling-psychological-services-resources">Counseling &amp; Psychological Services Resources</h3>
+<p>Counseling and psychological service resources are available to all students. If you need support, be sure to use these resources. For more information, see <a href="http://studentaffairs.psu.edu/counseling/" target="_blank">http://studentaffairs.psu.edu/counseling/.</a></p>
+</section>
+<section id="accommodations" class="level3">
+<h3 class="anchored" data-anchor-id="accommodations">Accommodations</h3>
+<p>Students with disabilities are welcomed into Penn State and SALA educational programs. If you need modifications or reasonable accommodations in this course due to a disability, contact the Office for Disability Services (ODS) and inform the course faculty. ODS is located at 116 Boucke Building. For more information, see <a href="https://equity.psu.edu/offices/student-disability-resources" target="&quot;_blank">https://equity.psu.edu/offices/student-disability-resources.</a> Please provide accommodation requests and documentation to the course faculty at the beginning of the course so we can best support you.</p>
+</section>
+</section>
+<section id="changes-and-updates" class="level2">
+<h2 class="anchored" data-anchor-id="changes-and-updates">Changes and Updates</h2>
+<p>The syllabus, schedule, project statements, lectures, and supporting materials are subject to change and are copyrighted. Faculty will promptly communicate revisions verbally and via Canvas announcements.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>Brzuszek, R. F., Harkess, R. L., &amp; Stortz, E. (2011). Perceptions of the Importance of Plant Material Knowledge by Practicing Landscape Architects in the Southeastern United States. HortTechnology, 21(1), 126–130. https://doi.org/10.21273/HORTTECH.21.1.126</p>
+<p>Griswold, M. (1994). The Horticultural Reconnection. Landscape Architecture Magazine, 84(5), 46–48, 50, 52.</p>
+<p>Landscape Architecture Foundation. (2024). About Landscape Performance | Landscape Performance Series. https://www.landscapeperformance.org/about-landscape-performance</p>
+<p>Penn State University. (2024). Academic Integrity | Penn State. Undergraduate Bulletin. https://bulletins.psu.edu/undergraduate/general-information/academic-information/student-rights-responsibilities/academic-integrity/</p>
+<p>Sturtevant, R. S. (1927). Planting design—Its study and teaching. Landscape Architecture Magazine, 18(1), 52–59.</p>
+<p>Wandersee, J. H., &amp; Schussler, E. E. (1999). Preventing Plant Blindness. The American Biology Teacher, 61(2), 82–86. https://doi.org/10.2307/4450624</p>
+<p>Weller, R. (2014). Stewardship now? Reflections on landscape architecture’s Raison d’etre in the 21st century. Landscape Journal, 33(2), 85–108.</p>
+
+
+</section>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p><strong>Landscape performance</strong> is “a measure of the effectiveness with which landscape solutions fulfill their intended purpose and contribute to sustainability. It involves assessment of progress toward environmental, social, and economic goals based on measurable outcomes (Landscape Architecture Foundation, 2024).”<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./01_core_plant_concepts.html" class="pagination-link" aria-label="Core Guiding Concepts for Plant Knowledge">
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Core Guiding Concepts for Plant Knowledge</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

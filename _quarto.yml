@@ -1,0 +1,42 @@
+project:
+  type: book
+  output-dir: docs
+  # resources: 
+  #   -slides/**
+  # pre-render: 
+  # - bash setup_submodules.sh
+
+book:
+  title: "Larch 335/837: Ecology and Plants II (Fall 2026)"
+  author: "Travis Flohr, Ph.D."
+  date: "7/27/2026"
+  chapters:
+    - index.qmd
+    - 01_core_plant_concepts.qmd
+    - 02_schedule.qmd
+    - 03_program.qmd
+    - 04_module_1_analyses.qmd
+
+  sidebar:
+    title: Larch 335 Course Content
+    search: true
+    collapse-level: 2
+
+bibliography: references.bib
+
+number-sections: true
+crossref:
+  chapters: true
+
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+
+
