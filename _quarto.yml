@@ -16,6 +16,7 @@ book:
     - 02_schedule.qmd
     - 03_program.qmd
     - 04_module_1_analyses.qmd
+    - 05_module_2a_design_list.qmd
 
   sidebar:
     title: Larch 335 Course Content
