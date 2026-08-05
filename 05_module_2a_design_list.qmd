@@ -68,7 +68,10 @@ The deliverable for this assignment will be two hand-sketched concept plans draw
 
 You will also prepare a draft plant palette in Excel. Your plant palette should be organized by plant form and include scientific and common names, width, height, soil pH and drainage requirements, shade requirements, bloom color, bloom time (beginning and ending), leaf color, fall color, species supported (with a focus on pollinators), and any other aesthetic notes you wish to include. 
 
-You will present these materials at the beginning of class on the due date for in-class crits and assessments. I provided detailed evaluation criteria in @tbl-mod2a_eval. 
+You will present these materials at the beginning of class on the due date for in-class crits and assessments. 
+
+### Evaluation Rubric
+I provided detailed evaluation criteria in @tbl-mod2a_eval. 
 
 | Description | Value |
 |:-------------|:-----:|
@@ -83,7 +86,7 @@ You will present these materials at the beginning of class on the due date for i
 | **Communication** |             |
 | Even in sketch form, your design is legible and has discernable layers, depth, texture, and craft. Your Excel file is organized, legible, and has a font hierarchy. | 1 point |
 
-: Module 2 evaluation rubric. {#tbl-mod2a_eval}
+: Module 2a evaluation rubric. {#tbl-mod2a_eval}
 
 ### Supplemental References {#sec-mod2a_resources}
 Arbor Day Foundation, 2015. Plant Hardiness Zones, [https://www.arborday.org/media/zones.cfm](https://www.arborday.org/media/zones.cfm){target="_blank"}  
