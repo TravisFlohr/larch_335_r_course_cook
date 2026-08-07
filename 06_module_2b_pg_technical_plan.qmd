@@ -87,3 +87,8 @@ I provided detailed evaluation criteria in @tbl-mod2b_eval.
 | The schedule exhibits completeness, organization, correctness, and legibility; appropriate labeling, sizing, and formatting | 5 points |
 
 : Module 2b evaluation rubric. {#tbl-mod2b_eval}
+
+## Lectures
+[Lecture 02b-2: Planting Plans and Schedules](https://pennstateoffice365-my.sharepoint.com/:b:/g/personal/tlf159_psu_edu/IQDhpTJu-n9fQLL-N0AYolgtAXmXZNn2QdnPgFSTZZfqWVk?e=UtN1yb){target="_blank"}
+
+[Lecture 02b-3: Cost Estimates](https://pennstateoffice365-my.sharepoint.com/:b:/g/personal/tlf159_psu_edu/IQAl9Kh7L2vkRLZwiDRx38vEATvLUyK_lRXlPx9h6gr0rsU?e=sEIHsR){target="_blank"}

@@ -125,3 +125,13 @@ I provided detailed evaluation criteria in @tbl-mod3_eval.
 ### References
 Lindsey, P., & Bassuk, N. (1992). Redesigning the urban forest from the ground below: A new approach to specifying adequate soil volumes for street trees. Arboricultural Journal, 16(1), 25–39. [https://doi.org/10.1080/03071375.1992.9746896](https://doi.org/10.1080/03071375.1992.9746896){target="_blank"}
 
+## Lectures
+[Lecture 03-01: Trees in an Urban Landscape I](https://pennstateoffice365-my.sharepoint.com/:b:/g/personal/tlf159_psu_edu/IQCh3Xrwyah0SZLzJlzJNL-tASU6pUyRZ-kKPlU3fGdEJr4?e=qTRjGn){target="_blank"}
+
+[Lecture 03-02: Trees in an Urban Landscape II](https://pennstateoffice365-my.sharepoint.com/:b:/g/personal/tlf159_psu_edu/IQDW_Q-xElUzTbnJinA13g3CAddvqejj7jdoIsv7OmjgrEk?e=hVsjgc){target="_blank"}
+
+[Lecture 03-03: ACAD Dimensioning Plans Overview](https://pennstateoffice365-my.sharepoint.com/:b:/g/personal/tlf159_psu_edu/IQAJp-igtaI6SImL65GX9WzTAdoaToTtvBOP6xjvfN3TCo0?e=2NJOtx){target="_blank"}
+
+[Lecture 03-04: ACAD Tree Details Overview](https://pennstateoffice365-my.sharepoint.com/:b:/g/personal/tlf159_psu_edu/IQACUW0GJBkcTZn5OCStVno_AeRQSiBpKcUnu65dcet2UpY?e=bY0Aaw){target="_blank"}
+
+[Lecture 03-05: Soil Volume Calculations](https://pennstateoffice365-my.sharepoint.com/:b:/g/personal/tlf159_psu_edu/IQCZHFXz8a0fRYxqtdWlodFwAWAeul__rMjrh5PCk7318xc?e=l4I6nM){target="_blank"}

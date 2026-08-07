@@ -18,6 +18,7 @@ book:
     - 04_module_1_analyses.qmd
     - 05_module_2a_design_list.qmd
     - 06_module_2b_pg_technical_plan.qmd
+    - 07_module_3_tree_plaza.qmd
 
   sidebar:
     title: Larch 335 Course Content
