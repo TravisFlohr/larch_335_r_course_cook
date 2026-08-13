@@ -1,4 +1,4 @@
-# Module 4a3: Meadow Palette and Concept
+# Module 4a: Meadow Palette and Concept
 
 ## Assignment Statement
 ![Example of caterpillar habitat and a meadow design rendering in TwinMotion for the MSC site. Source: Travis Flohr](images/08_statement_cover.png){#fig-example_journal_entry fig-alt="A side-by-side image contrasting nature and architecture. On the left, a macro photo of two Black Swallowtail caterpillars on green stems. On the right, an architectural rendering of a large, modern reddish-brown building with horizontal windows (MSC building at Penn State University Park). In the foreground courtyard, tall grasses and wildflowers grow near a concrete bench where two young men are sitting, one working on a laptop, while other people walk toward the building in the background." fig-align="center" width=100%}
