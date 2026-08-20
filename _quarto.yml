@@ -20,6 +20,7 @@ book:
     - 06_module_2b_pg_technical_plan.qmd
     - 07_module_3_tree_plaza.qmd
     - 08_module_4a_meadow_concept.qmd
+    - 09_module_4a_tech_plan.qmd
 
   sidebar:
     title: Larch 335 Course Content
