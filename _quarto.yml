@@ -7,7 +7,7 @@ project:
   # - bash setup_submodules.sh
 
 book:
-  title: "Larch 335/837: Ecology and Plants II (Fall 2026)"
+  title: "Larch 335/837: Planting Methods (Fall 2026)"
   author: "Travis Flohr, Ph.D."
   date: "7/27/2026"
   chapters:
