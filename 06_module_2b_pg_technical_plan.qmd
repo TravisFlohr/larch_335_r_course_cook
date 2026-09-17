@@ -95,4 +95,6 @@ I provided detailed evaluation criteria in @tbl-mod2b_eval.
 
 ## Additional AutoCAD video support
 
+Note this playlist has different module naming: Module 1c is equal to our Module 2b and Module 2 is now Module 3.
+
 [Larch 335 AutoCAD tutorial support references](https://youtube.com/playlist?list=PLDetNYMo9vMI&si=b91THvA_WVjoDWP3){target="_blank"}
